@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AF25C501CF1FAA200D8CCAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF25C4F1CF1FAA200D8CCAF /* main.m */; };
+		1AF25C581CF1FEA200D8CCAF /* MyViewerCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF25C571CF1FEA200D8CCAF /* MyViewerCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1AF25C4C1CF1FAA200D8CCAF /* myviewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myviewer; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF25C4F1CF1FAA200D8CCAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AF25C561CF1FEA200D8CCAF /* MyViewerCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewerCtrl.h; sourceTree = "<group>"; };
+		1AF25C571CF1FEA200D8CCAF /* MyViewerCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewerCtrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1AF25C4F1CF1FAA200D8CCAF /* main.m */,
+				1AF25C561CF1FEA200D8CCAF /* MyViewerCtrl.h */,
+				1AF25C571CF1FEA200D8CCAF /* MyViewerCtrl.m */,
 			);
 			path = myviewer;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF25C581CF1FEA200D8CCAF /* MyViewerCtrl.m in Sources */,
 				1AF25C501CF1FAA200D8CCAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
