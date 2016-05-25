@@ -123,7 +123,7 @@ static id shardCntr = nil;         //保存唯一一个共享实例
 {
     static Class inspectorClass = Nil;      //指向加载的类
     NSBundle *bundle;
-    NSSTRing *path;
+    NSString *path;
     
     if (inspectorClass == Nil)
     {
